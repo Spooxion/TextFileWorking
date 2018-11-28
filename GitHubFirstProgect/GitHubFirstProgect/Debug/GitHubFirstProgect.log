@@ -1,0 +1,8 @@
+﻿  TextFileWorking.c
+c:\users\azaza\source\repos\lab3.2\lab3.2\library_of_functions.h(220): warning C4098: CopyWordinNewFile: функция типа "void", возвращающая значение
+c:\users\azaza\source\repos\lab3.2\lab3.2\library_of_functions.h(190): warning C4101: c: неиспользованная локальная переменная
+c:\users\azaza\source\repos\lab3.2\lab3.2\library_of_functions.h(259): warning C4005: _CRT_SECURE_NO_WARNINGS: изменение макроопределения
+  c:\users\azaza\source\repos\lab3.2\lab3.2\textfileworking.c: note: см. предыдущее определение "_CRT_SECURE_NO_WARNINGS"
+c:\users\azaza\source\repos\lab3.2\lab3.2\textfileworking.c(22): warning C4013: getch: нет определения; предполагается "extern" с возвратом типа "int"
+c:\users\azaza\source\repos\lab3.2\lab3.2\textfileworking.c(29): warning C4013: gets: нет определения; предполагается "extern" с возвратом типа "int"
+  GitHubFirstProgect.vcxproj -> C:\Users\azaza\source\repos\GitHubFirstProgect\Debug\GitHubFirstProgect.exe
