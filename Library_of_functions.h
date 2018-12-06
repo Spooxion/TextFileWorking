@@ -198,13 +198,13 @@ void CopyWordinNewFile(char *file_name, char *file_name2)
 
 
 
-	fp = fopen(file_name, "r");  //читаем содержимоей файла 1
-	fp2 = fopen(file_name2, "a"); //пишем содержимое файла, в который надо все перенести
-	while (!feof(fp)) // пока не встретили конец файла
+	fp = fopen(file_name, "r");  
+	fp2 = fopen(file_name2, "a"); 
+	while (!feof(fp)) 
 	{
 
-		fscanf(fp, "%s", text); // сканируем текст из первого файла
-		if (strlen(text) == 5) // если размер текста равен 5, то
+		fscanf(fp, "%s", text); 
+		if (strlen(text) == 5) 
 		{
 
 			fputs(text, fp2);
